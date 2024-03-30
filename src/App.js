@@ -33,23 +33,21 @@ export default function App() {
           </div>
         </main>
         <footer>
-          This project was coded by
+          This project was coded by {""}
           <a
             href="https://github.com/EmiliaPodmore"
             target="_blank"
             rel="noreferrer"
-            style="text-decoration:none"
           >
             Emilia Podmore
           </a>
-          , it is
+          , it is {""}
           <a
             href="https://github.com/EmiliaPodmore/ReactWeatherApp"
             target="_blank"
             rel="noreferrer"
-            style="text-decoration:none"
           >
-            open-sourced on GitHub
+            {""}open-sourced on GitHub {""}
           </a>
           and hosted on Netlify
         </footer>
