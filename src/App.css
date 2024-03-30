@@ -1,0 +1,177 @@
+body {
+  background: linear-gradient(300deg, #bae6fd, #fde7ae, #c4e3cb, #24bbc2);
+  background-size: 600%;
+  animation: gradient-animation 42s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.weather-app {
+  background: #fafafa;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 34px;
+  border-radius: 10px;
+}
+header {
+  border-bottom: 1px solid #f1f3f6;
+  padding-bottom: 20px;
+}
+main {
+  padding: 10px 0;
+}
+.search-input {
+  background-color: #f1f3f6;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1;
+  width: 80%;
+  padding: 20px;
+  border: none;
+  border-radius: 6px;
+}
+.search-button {
+  background-color: #24bbc2;
+  color: #fafafa;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 20px;
+  transition: all 150ms ease-in-out;
+}
+.search-button:hover {
+  cursor: pointer;
+  background-color: #128496;
+}
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #f1f3f6;
+}
+.current-city {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+}
+.current-date {
+  font-weight: 600;
+}
+.current-details {
+  color: #757575;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  margin: 6px auto;
+}
+.current-details strong {
+  color: #24bbc2;
+}
+.row {
+  display: flex;
+}
+.current-temperature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.current-temperature-icon {
+  max-width: 90px;
+  max-height: 90px;
+  padding-right: 16px;
+  margin-right: 6px;
+}
+.current-temperature-value {
+  font-size: 72px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-right: 8px;
+}
+.current-temperature-unit {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 22px;
+  margin-right: 36px;
+}
+.current-weather-description {
+  color: #a7a7a7;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-transform: capitalize;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.weather-forecast-date {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.weather-forecast-icon {
+  text-align: center;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+.weather-forecast-temperatures {
+  display: flex;
+  color: 4;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
+.weather-forecast-temperature-max {
+  color: #24bbc2;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 17px;
+}
+.weather-forecast-temperature-min {
+  color: #6acfd4;
+  text-align: center;
+  padding: 0 2px;
+}
+footer {
+  color: #a7a7a7;
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #f1f3f6;
+}
+a {
+  color: #b5dec9;
+}
+a:hover {
+  cursor: pointer;
+  color: #547760;
+}
